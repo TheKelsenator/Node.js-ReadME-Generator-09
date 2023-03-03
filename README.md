@@ -39,6 +39,8 @@ node index.js
 
 ## Screen Shot
 
-![alt_text](./)
+![alt_text](./assets/images/Screenshot%20(31).png)
 
 ## Application Link
+
+https://drive.google.com/file/d/1boBbsnyTAEfmsJCEnu9Qg97k_-kypzSa/view?usp=sharingLinks 
