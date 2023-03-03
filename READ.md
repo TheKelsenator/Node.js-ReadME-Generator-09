@@ -1,33 +1,8 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-const {default: inquirer} = require("inquirer");
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  return `![GitHub license](https://img.shields.io/badge/license-${license}-blue)`;
-}
-// needs to be called inside generateMarkdown function
-
-
-// needs to be called inside generateMarkdown function
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  
-}
-// needs to be called inside generateMarkdown function
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-// maybe don't worry about this one ^
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+# The Kelsenator!
 
   ## Description
 
-  ${data.description}
+  a, b && c
 
   Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
@@ -64,7 +39,7 @@ function generateMarkdown(data) {
   If you followed tutorials, include links to those here as well.
 
   ## License
-  ${renderLicenseBadge(data.license)}
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue)
   The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
   ## Badges
@@ -83,14 +58,10 @@ function generateMarkdown(data) {
 
   ## Contact Me
 
-  Github [${data.gitHub}](https://github.com/${data.gitHub})
+  Github [TheKelsenator](https://github.com/TheKelsenator)
 
-  Email [${data.email}](mailto:${data.email})
+  Email [km.okelley89@gmail.com](mailto:km.okelley89@gmail.com)
 
   ## Tests
 
-  Go the extra mile and write tests for your application. Then provide examples on how to run them here.`;
-  
-}
-
-module.exports = generateMarkdown;
+  Go the extra mile and write tests for your application. Then provide examples on how to run them here.
