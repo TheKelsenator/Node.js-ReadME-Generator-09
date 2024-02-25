@@ -9,9 +9,16 @@ Full-Stack Web Development Coding Bootcamp
 
 ## Description
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. 
-The application will be invoked by using the following command:
-node index.js
+  This command-line application is designed to streamline the process of creating professional README files for new projects. With just a few simple prompts, developers can generate a high-quality README.md file tailored to their project. The generated README includes sections such as Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions, providing a comprehensive overview of the project. Users input information about their project title, description, installation instructions, usage information, contribution guidelines, and test instructions, which are automatically incorporated into the appropriate sections of the README. Additionally, developers can select a license from a list of options, with the chosen license badge and notice automatically added to the README. The user's GitHub username and email address are also included in the Questions section, along with instructions on how to reach them for additional questions. With its intuitive interface and customizable features, this README generator simplifies the process of creating professional documentation for any project.
+
+  ## Table of Contents 
+
+  - [User Story](#user-story)
+  - [Acceptance Criteria](#acceptance-criteria)
+  - [License](#license)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Contact Me](#contact-me)
 
 ## User Story
 
@@ -37,10 +44,25 @@ node index.js
   * WHEN I click on the links in the Table of Contents
   * THEN I am taken to the corresponding section of the README
 
-## Screen Shot
+## License
 
-![alt_text](./assets/images/Screenshot%20(31).png)
+  This project is licensed under the terms of the MIT license.
+  [License Information](https://choosealicense.com/licenses/mit)
+  <br/>
+  <br/>
+  <a href="https://choosealicense.com/licenses/mit">
+  <img src="https://img.shields.io/badge/License-MIT-blue" />
+  </a>
 
-## Application Link
+## Screenshot
 
-https://drive.google.com/file/d/1boBbsnyTAEfmsJCEnu9Qg97k_-kypzSa/view?usp=sharingLinks 
+  ![alt_text](./assets/images/Screenshot%20(31).png)
+
+## Links
+
+  * Application Video Link: https://drive.google.com/file/d/1boBbsnyTAEfmsJCEnu9Qg97k_-kypzSa/view?usp=sharingLinks 
+  * LinkedIn Profile: https://www.linkedin.com/in/kelsey-o-kelley-23057a20b/
+
+## Contact Me
+
+  Feel free to reach out to me via email at km.okelley89@gmail.com or through my LinkedIn.
